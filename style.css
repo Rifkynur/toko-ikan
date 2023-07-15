@@ -1,0 +1,140 @@
+body {
+  min-height: 5000px;
+}
+.navbar {
+  box-shadow: 5px 5px 15px #000;
+  background: transparent;
+}
+.navbar-brand span {
+  color: #068fff;
+}
+.nav-link {
+  transition: 0.3s ease;
+}
+.nav-link:hover {
+  letter-spacing: 2px;
+  text-shadow: 0 0 15px #19a7ce;
+  color: #19a7ce;
+  font-size: 1.2em;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5)), url(asset/yannis-papanastasopoulos-U6dnImauDAE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  box-shadow: 0 10px 15px black;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+.about span {
+  color: #068fff;
+}
+.img-about {
+  width: 100%;
+  filter: brightness(0.6);
+}
+.daftar span {
+  color: #068fff;
+}
+.card {
+  box-shadow: 0 0 10px black;
+  overflow: hidden;
+}
+.img-card {
+  height: 200px;
+}
+.img2 img {
+  position: relative;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -45px;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.3s ease;
+}
+.card {
+  height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
+  flex-grow: 1;
+  text-indent: 15px;
+}
+.card:hover .img2 img {
+  border-color: #068fff;
+  box-shadow: 0 0 5px #068fff, 0 0 10px #068fff;
+}
+.contact span {
+  color: #068fff;
+}
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.maps {
+  width: 100%;
+  height: 350px;
+}
+.input {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+.icon-input {
+  color: white;
+  font-size: 1.5em;
+}
+.form-control1 {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 3px solid #068fff;
+  color: #fff;
+}
+.testi span {
+  color: #068fff;
+}
+.testi-wrapper {
+  background-color: #4fc0d0;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #000;
+}
+.carousel-item {
+  height: 320px;
+}
+.carousel-item:hover .icon-testi {
+  border-color: #068fff;
+  box-shadow: 0 0 5px #068fff, 0 0 10px #068fff, 0 0 15px #068fff;
+}
+.icon-testi {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  transition: 0.3s ease;
+}
+.carousel-caption {
+  color: #000;
+}
+.carousel-caption h5 {
+  font-family: allura, cursive;
+  font-size: 2.5em;
+}
+.carousel-caption p {
+  font-size: 1.2em;
+}
