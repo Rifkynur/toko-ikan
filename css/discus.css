@@ -1,0 +1,104 @@
+.red-discus {
+  background: url(../asset/reddiscus.avif);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #f31559;
+}
+.card-discus {
+  height: 340px;
+}
+.head-card {
+  display: flex;
+  justify-content: space-between;
+}
+.head-card p {
+  font-size: 1.8em;
+  line-height: 1em;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
+}
+.head-card-icon {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.text-discus {
+  position: absolute;
+  bottom: 75px;
+  line-height: 1em;
+  text-shadow: 0 0 20px #000;
+}
+.text-red-discus::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f31559;
+}
+.cobalt-discus {
+  background: url(../asset/cobaltdiscus.avif);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #75c2f6;
+}
+.text-cobalt-discus::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #75c2f6;
+}
+.btn-cobalt {
+  background-color: #75c2f6;
+  color: #000;
+  transition: 0.3s ease;
+}
+.btn-cobalt:hover {
+  background-color: #5ca9dc;
+  color: #000;
+}
+.yellow-discus {
+  background: url(../asset/yellowdiscus.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #f0de36;
+}
+.text-yellow-discus::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f0de36;
+}
+.white-discus {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../asset/whitediscus.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fff;
+}
+.text-white-discus::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.pigeon-discus {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../asset/pigeondiscus.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.snakeskin-discus {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../asset/snakeskin.jpg);
+  background-position: center;
+  background-size: cover;
+}
