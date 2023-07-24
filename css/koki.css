@@ -1,0 +1,123 @@
+.oranda-koki {
+  background: url(../asset/oranda.webp);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #f31559;
+}
+.card-koki {
+  height: 340px;
+  position: relative;
+}
+.head-card {
+  display: flex;
+  justify-content: space-between;
+}
+.head-card p {
+  font-size: 1.8em;
+  line-height: 1em;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
+}
+.head-card-icon {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.text-koki {
+  position: absolute;
+  bottom: 75px;
+  line-height: 1em;
+  text-shadow: 0 0 20px #000;
+}
+.text-oranda::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f31559;
+}
+.ranchu-koki {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../asset/ranchu.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fc4f00;
+}
+.text-koki-ranchu::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fc4f00;
+}
+.btn-ranchu {
+  background-color: #fc4f00;
+  color: #000;
+  transition: 0.3s ease;
+}
+.btn-ranchu:hover {
+  background-color: #9a3304;
+  color: #000;
+}
+.ryukin-koki {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../asset/ryukin.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.text-ryukin-koki::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f31559;
+}
+.pearlscale-koki {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../asset/pearlscale.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fc4f00;
+}
+.text-pearlscale-koki::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fc4f00;
+}
+.demekin-koki {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../asset/demekin.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #000;
+}
+.text-demekin-koki::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+}
+.bubbleeye-koki {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../asset/bubbleeye.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.text-bubbleeye-koki::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fc4f00;
+}

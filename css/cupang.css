@@ -1,0 +1,125 @@
+.halfmoon-cupang {
+  background: url(../asset/halfmoon.webp);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #f31559;
+}
+.card-cupang {
+  height: 340px;
+  position: relative;
+}
+.head-card {
+  display: flex;
+  justify-content: space-between;
+}
+.head-card p {
+  font-size: 1.8em;
+  line-height: 1em;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
+}
+.head-card-icon {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.text-cupang {
+  position: absolute;
+  bottom: 75px;
+  line-height: 1em;
+  text-shadow: 0 0 20px #000;
+}
+.text-halfmoon::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f31559;
+}
+.bluerim-cupang {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../asset/bluerim.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fff;
+}
+.text-bluerim::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #0779e4;
+}
+.btn-bluerim {
+  background-color: #054d90;
+  color: #000;
+  transition: 0.3s ease;
+}
+.btn-bluerim:hover {
+  background-color: #0779e4;
+  color: #000;
+}
+.crowntail-cupang {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(../asset/crowntail.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fff;
+}
+.text-crowntail::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+}
+.alien-cupang {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(../asset/alien.webp);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #000;
+}
+.text-alien::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+}
+.dumboear-cupang {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../asset/dumbo.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fff;
+}
+.text-dumboear::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.veiltail-cupang {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../asset/veiltail.webp);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #f31559;
+}
+.text-veiltail::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f31559;
+}

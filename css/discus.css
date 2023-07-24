@@ -39,7 +39,7 @@
   background-color: #f31559;
 }
 .cobalt-discus {
-  background: url(../asset/cobaltdiscus.avif);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../asset/cobaltdiscus.avif);
   background-position: center;
   background-size: cover;
   border: 2px solid #75c2f6;
@@ -63,7 +63,7 @@
   color: #000;
 }
 .yellow-discus {
-  background: url(../asset/yellowdiscus.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../asset/yellowdiscus.jpg);
   background-position: center;
   background-size: cover;
   border: 2px solid #f0de36;
@@ -78,7 +78,7 @@
   background-color: #f0de36;
 }
 .white-discus {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../asset/whitediscus.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../asset/whitediscus.jpg);
   background-position: center;
   background-size: cover;
   border: 2px solid #fff;
@@ -93,12 +93,12 @@
   background-color: #fff;
 }
 .pigeon-discus {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../asset/pigeondiscus.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../asset/pigeondiscus.jpg);
   background-position: center;
   background-size: cover;
 }
 .snakeskin-discus {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../asset/snakeskin.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../asset/snakeskin.jpg);
   background-position: center;
   background-size: cover;
 }
